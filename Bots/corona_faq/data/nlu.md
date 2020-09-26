@@ -36,6 +36,7 @@
 - I am feeling very good
 - I am great
 - I'm good
+- i am good
 
 ## intent:mood_unhappy
 - sad
@@ -62,10 +63,12 @@
 - what si covid-19
 - tell me about corona
 - can you tell me about covid
+- what is corona
 
 ## intent:corona_spread
 - how does corona virus spread
 - how does virus spread
+- how does it spread
 
 ## intent:corona_food_spread
 - does corona spread from food
