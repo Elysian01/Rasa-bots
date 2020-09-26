@@ -59,7 +59,7 @@ domain.yml ==> consists of req intents and responses text and intent
 
 
 ## Uses
-- Customer Support
+- Customer Support (vegetable shopping bot for stores, internet providers,etc )
 - FAQ
 - Addressing Grivances (Customer Complain , book tokens for complaining)
 - Appointment Booking (flight,train,movie)
@@ -76,7 +76,8 @@ domain.yml ==> consists of req intents and responses text and intent
 ## Building
 
 - data => greetings + explain what the bot can do 
-- pipeline => sequence of processing step which are used to extract certain text features and components which allow the model to learn the underlying pattern from the provided examples
+- pipeline => sequence of processing step which are used to extract certain text features and components which allow the
+              model to learn the underlying pattern from the provided examples
 
 => pipeline (config.yml)
 	- pretrained_embeddings_spacy (word to vector, similar word means similar vector)
