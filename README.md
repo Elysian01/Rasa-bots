@@ -8,3 +8,4 @@
 ## Bots build with RASA 2.0+ Version
 
 - [User Login and Registration Bot with SQL DB](Bots/login_register_bot)
+- [Covid 19 Bot (gives country and state wise case details and answer to corona FAQS)](Bots/covid_19_bot)
