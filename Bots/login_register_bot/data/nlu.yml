@@ -1,0 +1,138 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: my_name_is
+  examples: |
+    - My name is [abhishek](name)
+    - [abhishek](name:abhishek) this side
+    - It's [Abhishek](name:abhishek)
+    - [abhishek](name:abhishek) is my name
+    - you can call me [Abhishek](name)
+    - [sita](name)
+    - [ram](name)
+    - [ramesh](name)
+    - [saurabh](name)
+    - [elysian](name)
+
+- intent: my_email_is
+  examples: |
+    - My email is [abhig0204@gmail.com](email)
+    - i live in [abhig0204@gmail.com](email)
+    - It's [jay123@gmail.com](email)
+    - [abhig1250204@gmail.com](email) is my email
+    - [abhishekg0204@gmail.com](email)
+    - [saurabh@gmail.com](email)
+    - [surya1243@hotmail.com](email)
+    - [lokeshramdevbohara@outlook.com](email)
+
+- intent: what_is_my_name
+  examples: |
+    - What is my name ?
+    - tell me my name
+
+- intent: sign_in
+  examples: |
+    - please sign me in 
+    - please log me in 
+    - sign in 
+
+- intent: sign_up
+  examples: |
+    - i want to sign up
+    - i want to register myself
+    - i am new here
+    - how can i register 
+    - create new account
+    - i want new account
+    - register me
+    - sign up 
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: agent_needed
+  examples: |
+    - i want to talk to real person
+    - i want to talk to someone real
+    - please can you connect to an agent
+    - transfer to person
+    - i don't want to talk to chatbot
+    - i don't want to discuss my issue with robot
+
+- intent: delivery_problem
+  examples: |
+    - i have some delivery problems
+    - fruits didn't get deliver 
+    - delivery problems
+    - fruits are not delivered
+
+- intent: quality_problem
+  examples: |
+    - i have some quality problems
+    - fruits are spoiled
+    - rotten fruits
+    - bad quality fruits
+
+
+
+- intent: other_problem
+  examples: |
+    - i have some other problems
+    - some problems
+
+
