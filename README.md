@@ -1,4 +1,4 @@
-# Rasa-bots
+# Rasa-bots 🤖
 
 ## Bots build with RASA 1.0 Version
 - [Corona FAQ](Bots/corona_faq)
